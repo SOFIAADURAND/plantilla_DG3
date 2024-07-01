@@ -881,10 +881,28 @@ section,
 
 .about .icon-box {
   background-color: #fff;
-  padding: 50px 40px;
+  padding: 40px 40px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   /* border-radius: 10px; */
   transition: all 0.3s ease-out 0s;
+}
+
+.about .fondo1{
+  background-color: rgb(255, 255, 255, 0%);
+  background-image: url(../imagenes/1nosotros1.png);
+  padding: 65px 40px;
+  position: center;
+  width: 361px;
+  height: 364px;
+}
+
+.about .fondo2{
+  background-color: rgb(255, 255, 255, 0%);
+  background-image: url(../imagenes/nosotros2.png);
+  padding: 65px 40px;
+  position: center;
+  width: 361px;
+  height: 364px;
 }
 
 .about .icon-box i {
@@ -904,6 +922,7 @@ section,
 
 .about .icon-box h3 {
   margin-bottom: 10px;
+  margin-top: 15px;
   font-size: 24px;
   font-weight: 700;
 }
@@ -923,7 +942,7 @@ section,
 }
 
 .about{
-  background-image: url(/assets/imagenes/back\ nosotros.png);
+  background-image: url(/assets/imagenes/backnosotros.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1070,8 +1089,10 @@ font-size: 80px;
 }
 
 .services{
-  background-color: #161721;
-  background-image: url("activa");
+  background-image: url("../imagenes/activa.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -1496,7 +1517,12 @@ font-size: 80px;
 }
 
 .faq .faq-container .faq-item h3 .num {
-  color: var(--accent-color);
+  color: #5BBDE8;
+  padding-right: 5px;
+}
+
+.faq .faq-container .faq-item h3 .numb {
+  color: #FFA63A;
   padding-right: 5px;
 }
 
@@ -1562,7 +1588,10 @@ font-size: 80px;
 --------------------------------------------------------------*/
 .team {
   /* --background-color: #f4f4f4; */
-  background-image: url("back nosotors.png");
+  background-image: url("../imagenes/backteam.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .team .member {
@@ -1647,12 +1676,19 @@ font-size: 80px;
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  --background-color: #5BBDE8;
   --default-color: #ffffff;
   --contrast-color: #ffffff;
   padding: 80px 0;
   position: relative;
   clip-path: inset(0);
+}
+
+.call-to-action {
+  background-image: url("../imagenes/backdona.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #161721;
 }
 
 .call-to-action img {
